@@ -1,6 +1,13 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
+  <NuxtLayout>
     <NuxtWelcome />
-  </div>
+  </NuxtLayout>
 </template>
+
+<script setup lang="ts">
+import '/assets/css/tailwind.css';
+</script>
+
+<style scoped>
+
+</style>
